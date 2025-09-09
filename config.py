@@ -23,3 +23,6 @@ with technical risk and long development cycles. We look for defensible 'moats'
 built on novel science or engineering. We are particularly interested in the
 intersections of software (AI/ML), biology, and advanced materials.
 """
+
+# Technical Area of Interest for GitHub agent
+GITHUB_INTEREST_AREA = "The emerging stack for building and deploying autonomous AI Agents"
