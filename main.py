@@ -4,9 +4,7 @@ from vertexai.generative_models import GenerativeModel, GenerationConfig
 from agents.news_agent import NewsScoutAgent
 from agents.github_agent import GithubScoutAgent
 from agents.arxiv_agent import ArxivScoutAgent
-from agents.synthesis_agent import SynthesisAgent
-from agents.startup_finder_agent import StartupFinderAgent
-from agents.verification_agent import VerificationAgent
+from agents.final_report_agent import FinalReportAgent # Import the new agent
 from orchestrator import Orchestrator
 from config import PROJECT_ID, LOCATION, NEWS_API_KEY, GITHUB_TOKEN
 
@@ -40,31 +38,14 @@ def check_prerequisites():
 
 if __name__ == "__main__":
     if check_prerequisites():
-        # Initialize the core model once
         gemini_model = initialize_system()
 
-        # Instantiate all agents, passing the shared model
-        news_agent = NewsScoutAgent(model=gemini_model)
-        github_agent = GithubScoutAgent(model=gemini_model)
-        arxiv_agent = ArxivScoutAgent(model=gemini_model)
-        synthesis_agent = SynthesisAgent(model=gemini_model)
-        startup_finder_agent = StartupFinderAgent(model=gemini_model)
-        verification_agent = VerificationAgent(model=gemini_model)
-
-        # Create the orchestrator with all the agents
+        # Instantiate all agents
         orchestrator = Orchestrator(
-            news_scout=news_agent,
-            github_scout=github_agent,
-            arxiv_scout=arxiv_agent,
-            synthesis_agent=synthesis_agent,
-            startup_finder=startup_finder_agent,
-            verification_agent=verification_agent
+            news_scout=NewsScoutAgent(model=gemini_model),
+            github_scout=GithubScoutAgent(model=gemini_model),
+            arxiv_scout=ArxivScoutAgent(model=gemini_model),
+            final_report_agent=FinalReportAgent(model=gemini_model) # Use the new agent
         )
         
-        # Run the entire pipeline
-        final_verified_report = orchestrator.run()
-        
-        print("\n" + "="*60)
-        print("FINAL VERIFIED REPORT")
-        print("="*60)
-        print(final_verified_report)
+        orchestrator.run() # You can still run it locally to test

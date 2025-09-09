@@ -6,3 +6,4 @@ pytrends
 python-dotenv
 fastapi
 uvicorn[standard]
+google-cloud-firestore

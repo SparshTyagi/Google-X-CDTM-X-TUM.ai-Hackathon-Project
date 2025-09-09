@@ -1,0 +1,120 @@
+{
+  "trends": [
+    {
+      "id": "autonomous-discovery-platforms",
+      "name": "Autonomous Discovery Platforms",
+      "description": "Investing in full-stack AI systems that automate the entire scientific R&D lifecycle, from hypothesis generation to physical experimentation. These platforms use agentic AI frameworks to create a closed-loop 'self-driving lab,' drastically accelerating the discovery of new materials, chemicals, and drugs.",
+      "importance": 10,
+      "subtrends": [
+        {
+          "id": "ai-agentic-rd-orchestration",
+          "name": "AI-Agentic R&D Orchestration",
+          "description": "Software platforms that use multi-agent AI systems to plan, execute, and learn from complex scientific discovery campaigns, integrating diverse data sources and simulation tools.",
+          "startups": [
+            {
+              "name": "Enveda Biosciences",
+              "summary": "Enveda Biosciences is mapping the chemistry of the natural world to find new medicines using a machine learning platform.",
+              "rationale": "Enveda's platform exemplifies the closed-loop discovery thesis by integrating metabolomics, data analysis, and AI-driven prioritization to autonomously identify promising drug candidates from nature."
+            },
+            {
+              "name": "A-Alpha Bio",
+              "summary": "A-Alpha Bio uses a proprietary yeast-based platform to measure millions of protein-protein interactions simultaneously for drug discovery.",
+              "rationale": "Their platform is a real-world example of an autonomous lab, where a biological system is engineered to perform massive-scale experimental screening, generating proprietary data that feeds back into their discovery engine."
+            },
+            {
+              "name": "Unnatural Products",
+              "summary": "Unnatural Products leverages a combination of machine learning and chemical biology to discover novel macrocycle drugs.",
+              "rationale": "Their platform is designed to autonomously navigate chemical space, synthesizing and screening compounds in a closed loop to accelerate the discovery of drugs in a traditionally difficult chemical class."
+            }
+          ]
+        },
+        {
+          "id": "physics-constrained-generative-models",
+          "name": "Physics-Constrained Generative Models",
+          "description": "Developing generative AI that incorporates fundamental physical laws (e.g., symmetry, thermodynamics, chemical valency) to ensure generated molecules and materials are physically viable and synthesizable.",
+          "startups": [
+            {
+              "name": "Generate:Biomedicines",
+              "summary": "Generate:Biomedicines has a generative AI platform (The Generate Platform) to program novel protein therapeutics.",
+              "rationale": "Their entire approach is built on generative models that learn the complex rules of protein structure and function, ensuring the de novo proteins they design are not just novel but also stable and functional."
+            },
+            {
+              "name": "Menten AI",
+              "summary": "Menten AI designs novel proteins and peptides from scratch using machine learning and quantum computing.",
+              "rationale": "They directly tackle the 'viability' problem by designing models that create physically plausible protein structures, a prime example of constraining generation with the laws of biochemistry."
+            },
+            {
+              "name": "Aqemia",
+              "summary": "Aqemia uses quantum-inspired physics and generative AI to design novel drug candidates with high potency and synthesizability.",
+              "rationale": "Their platform's key differentiator is its deep integration of physics-based calculations into the generative process, increasing the 'hit rate' by ensuring proposed molecules are both effective and manufacturable."
+            }
+          ]
+        },
+        {
+          "id": "automated-synthesis-prediction",
+          "name": "Automated Synthesis Prediction",
+          "description": "AI platforms that move beyond designing molecules to predicting the most efficient, high-yield, and cost-effective chemical synthesis pathways to actually manufacture them.",
+          "startups": [
+            {
+              "name": "PostEra",
+              "summary": "PostEra offers a 'synthesis-as-a-service' platform using machine learning to design and synthesize molecules for drug discovery partners.",
+              "rationale": "PostEra directly addresses the synthesis problem by building AI to predict reaction pathways, making them a key player in moving generative chemistry from theory to practice for the pharmaceutical industry."
+            },
+            {
+              "name": "Synform",
+              "summary": "A spin-out from Scripps Research, Synform is developing a platform for automated chemical synthesis planning and execution.",
+              "rationale": "They represent the pure-play investment thesis for this subtrend: building the AI brain that can determine the optimal 'how-to' for any given molecule, a critical bottleneck in chemistry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-designed-functional-matter",
+      "name": "AI-Designed Functional Matter",
+      "description": "A paradigm shift from designing materials for static properties to designing them for dynamic, computational, or biological function. This involves using AI to create metamaterials and bio-hybrid systems where the physical structure itself performs computation, sensing, or actuation.",
+      "importance": 9,
+      "subtrends": [
+        {
+          "id": "organoid-wetware-computing",
+          "name": "Organoid & Wetware Computing",
+          "description": "Developing novel computing substrates by interfacing living biological tissue, like brain organoids or neural cultures, with silicon electronics for ultra-energy-efficient AI.",
+          "startups": [
+            {
+              "name": "FinalSpark",
+              "summary": "FinalSpark is a Swiss startup building 'neuroplatforms' that use living neurons for biocomputing, accessible via the cloud.",
+              "rationale": "They are one of the first companies to commercialize access to wetware computing, directly validating the investment thesis of using biological neurons to solve the AI energy consumption problem."
+            },
+            {
+              "name": "Cortical Labs",
+              "summary": "Cortical Labs is an Australian deep-tech company that demonstrated the ability of cultured neurons to learn and perform goal-directed tasks, such as playing the game 'Pong'.",
+              "rationale": "As the pioneer of 'Organoid Intelligence,' their foundational research and proof-of-concept demonstrations make them the key academic and commercial entity in this nascent field."
+            },
+            {
+              "name": "Koniku",
+              "summary": "Koniku builds neuro-computing devices that fuse living neurons with silicon for tasks like real-time scent detection.",
+              "rationale": "They provide a tangible, near-term commercial application of wetware, demonstrating how bio-silicon hybrids can solve specific sensing problems where traditional electronics fall short."
+            }
+          ]
+        },
+        {
+          "id": "in-materio-physical-computing",
+          "name": "In-Materio & Physical Computing",
+          "description": "Designing non-electronic, AI-generated metamaterials that perform computation or sensing through their physical response to stimuli like heat, light, or mechanical stress.",
+          "startups": [
+            {
+              "name": "Lumotive",
+              "summary": "Lumotive develops light control metasurfaces (LCMs) for beam steering in LiDAR systems, replacing traditional mechanical parts.",
+              "rationale": "Their technology is a perfect example of functional matter; an AI-designed material that performs a dynamic, computational function (beam steering) through its physical structure, not conventional electronics."
+            },
+            {
+              "name": "AnamXR",
+              "summary": "AnamXR (formerly Tanvas) develops surface haptics technology that allows users to feel programmable textures on flat physical surfaces like touchscreens.",
+              "rationale": "This is a form of programmable matter where an electro-mechanical material is controlled to produce dynamic physical output, fitting the thesis of materials designed for function beyond static properties."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
