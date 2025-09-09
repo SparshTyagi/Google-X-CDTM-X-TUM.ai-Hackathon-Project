@@ -1,0 +1,6 @@
+# requirements.txt
+google-cloud-aiplatform
+requests
+pandas
+pytrends
+python-dotenv
