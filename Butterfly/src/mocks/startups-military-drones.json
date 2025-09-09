@@ -1,0 +1,26 @@
+[
+  {
+    "id": "anduril-industries",
+    "name": "Anduril Industries",
+    "one_liner": "Building autonomous defense systems and AI-powered surveillance platforms for military applications.",
+    "logo_url": null,
+    "tags": ["Series D", "Defense", "AI", "Autonomous Systems"],
+    "website_url": "https://anduril.com"
+  },
+  {
+    "id": "skydio",
+    "name": "Skydio", 
+    "one_liner": "Developing autonomous drones with advanced AI for military reconnaissance and surveillance missions.",
+    "logo_url": null,
+    "tags": ["Series E", "Defense", "Computer Vision", "Drones"],
+    "website_url": "https://skydio.com"
+  },
+  {
+    "id": "shield-ai",
+    "name": "Shield AI",
+    "one_liner": "Creating AI pilots for military aircraft and drones to operate in GPS-denied environments.",
+    "logo_url": null, 
+    "tags": ["Series E", "Defense", "AI", "Autonomous Flight"],
+    "website_url": "https://shield.ai"
+  }
+]

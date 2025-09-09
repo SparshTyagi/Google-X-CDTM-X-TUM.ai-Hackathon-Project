@@ -1,0 +1,42 @@
+[
+  {
+    "id": "military-drones",
+    "trend_id": "defense-tech",
+    "name": "Military Drones", 
+    "description": "Autonomous and semi-autonomous unmanned aerial vehicles for surveillance, reconnaissance, and combat operations.",
+    "momentum_score": 96,
+    "change_30d_pct": 18.5
+  },
+  {
+    "id": "dual-use-ai",
+    "trend_id": "defense-tech", 
+    "name": "Dual-use AI",
+    "description": "Artificial intelligence technologies with both civilian and military applications, raising ethical and regulatory concerns.",
+    "momentum_score": 89,
+    "change_30d_pct": 14.2
+  },
+  {
+    "id": "counter-uas",
+    "trend_id": "defense-tech",
+    "name": "Counter-UAS Systems", 
+    "description": "Technologies designed to detect, track, and neutralize hostile unmanned aircraft systems in military and civilian contexts.",
+    "momentum_score": 84,
+    "change_30d_pct": 11.7
+  },
+  {
+    "id": "military-satellite",
+    "trend_id": "defense-tech",
+    "name": "Military Satellites",
+    "description": "Space-based assets for communications, surveillance, navigation, and potential offensive capabilities.",
+    "momentum_score": 78,
+    "change_30d_pct": 9.3
+  },
+  {
+    "id": "cyber-warfare",
+    "trend_id": "defense-tech",
+    "name": "Cyber Warfare Tools",
+    "description": "Software and systems designed for offensive and defensive cyber operations in military contexts.",
+    "momentum_score": 72,
+    "change_30d_pct": 6.8
+  }
+]

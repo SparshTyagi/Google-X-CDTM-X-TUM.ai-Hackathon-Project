@@ -1,0 +1,26 @@
+[
+  {
+    "id": "carbon-capture",
+    "trend_id": "climate-solutions",
+    "name": "Carbon Capture",
+    "description": "Direct air capture and carbon utilization technologies removing CO2 from the atmosphere.",
+    "momentum_score": 91,
+    "change_30d_pct": 16.3
+  },
+  {
+    "id": "green-hydrogen",
+    "trend_id": "climate-solutions",
+    "name": "Green Hydrogen",
+    "description": "Hydrogen production using renewable energy sources for clean industrial applications.",
+    "momentum_score": 85,
+    "change_30d_pct": 13.7
+  },
+  {
+    "id": "battery-storage",
+    "trend_id": "climate-solutions",
+    "name": "Grid Battery Storage",
+    "description": "Large-scale energy storage systems for renewable energy integration and grid stability.",
+    "momentum_score": 79,
+    "change_30d_pct": 10.9
+  }
+]

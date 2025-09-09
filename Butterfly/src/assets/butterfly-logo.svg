@@ -1,0 +1,24 @@
+<svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="butterflyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FACC15;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Left wing -->
+  <path d="M35 45 Q20 25 15 40 Q10 55 25 50 Q35 55 35 45" fill="url(#butterflyGradient)" opacity="0.9"/>
+  <!-- Right wing -->
+  <path d="M65 45 Q80 25 85 40 Q90 55 75 50 Q65 55 65 45" fill="url(#butterflyGradient)" opacity="0.9"/>
+  <!-- Lower left wing -->
+  <path d="M40 55 Q25 70 20 55 Q15 40 35 50 Q45 55 40 55" fill="url(#butterflyGradient)" opacity="0.8"/>
+  <!-- Lower right wing -->
+  <path d="M60 55 Q75 70 80 55 Q85 40 65 50 Q55 55 60 55" fill="url(#butterflyGradient)" opacity="0.8"/>
+  <!-- Body -->
+  <ellipse cx="50" cy="50" rx="2" ry="20" fill="url(#butterflyGradient)"/>
+  <!-- Antennae -->
+  <path d="M48 35 Q45 30 46 28" stroke="url(#butterflyGradient)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M52 35 Q55 30 54 28" stroke="url(#butterflyGradient)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <circle cx="46" cy="28" r="1.5" fill="url(#butterflyGradient)"/>
+  <circle cx="54" cy="28" r="1.5" fill="url(#butterflyGradient)"/>
+</svg>

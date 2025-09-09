@@ -1,0 +1,29 @@
+[
+  {
+    "id": "defense-tech",
+    "name": "Defense Technology",
+    "summary": "AI-powered defense systems and dual-use technologies reshaping modern warfare capabilities.",
+    "momentum_score": 94,
+    "change_30d_pct": 23.5,
+    "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=300",
+    "bg_media_url": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800"
+  },
+  {
+    "id": "climate-solutions", 
+    "name": "Climate Solutions",
+    "summary": "Breakthrough technologies for carbon capture, renewable energy, and environmental restoration.",
+    "momentum_score": 87,
+    "change_30d_pct": 18.2,
+    "image_url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=300",
+    "bg_media_url": "https://images.unsplash.com/photo-1497436072909-f5e4be1713ba?w=800"
+  },
+  {
+    "id": "longevity-biotech",
+    "name": "Longevity Biotech", 
+    "summary": "Biotechnology focused on extending human lifespan through gene therapy and cellular reprogramming.",
+    "momentum_score": 76,
+    "change_30d_pct": -4.8,
+    "image_url": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=300",
+    "bg_media_url": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800"
+  }
+]

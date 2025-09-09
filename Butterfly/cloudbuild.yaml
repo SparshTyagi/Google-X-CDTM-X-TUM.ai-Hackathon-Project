@@ -1,0 +1,17 @@
+steps:
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['install']
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['run', 'build']
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['install', '-g', 'firebase-tools']
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    args: ['gcloud', 'config', 'set', 'project', 'tum-cdtm25mun-8792']
+  - name: "us-docker.pkg.dev/firebase-cli/us/firebase"
+    args: ['deploy', '--project=tum-cdtm25mun-8792', '--only=hosting']
+
+
+
+options:
+  logging: CLOUD_LOGGING_ONLY # Or NONE, depending on your preference
+

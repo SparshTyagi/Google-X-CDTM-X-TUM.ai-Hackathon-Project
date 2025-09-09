@@ -1,0 +1,26 @@
+[
+  {
+    "id": "climeworks",
+    "name": "Climeworks",
+    "one_liner": "Leading direct air capture company removing CO2 from the atmosphere and storing it permanently.",
+    "logo_url": null,
+    "tags": ["Series C", "Climate Tech", "Carbon Capture", "Industrial"],
+    "website_url": "https://climeworks.com"
+  },
+  {
+    "id": "carbon-engineering",
+    "name": "Carbon Engineering",
+    "one_liner": "Developing large-scale direct air capture technology to remove CO2 from the atmosphere.",
+    "logo_url": null,
+    "tags": ["Series B", "Climate Tech", "Energy", "Carbon Capture"],
+    "website_url": "https://carbonengineering.com"
+  },
+  {
+    "id": "verdox",
+    "name": "Verdox",
+    "one_liner": "Creating electrochemical systems for efficient and cost-effective carbon dioxide capture.",
+    "logo_url": null,
+    "tags": ["Series A", "Climate Tech", "Electrochemical", "MIT Spinout"],
+    "website_url": "https://verdox.com"
+  }
+]
